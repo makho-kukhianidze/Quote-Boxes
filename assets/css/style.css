@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+	min-height: 80vh;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #2a0606a1;
+    margin: 5px;
+}
+.img-container{
+    background: url('../image/o.jpg');
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+}
+.main-container{
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    padding: 12px;
+    width: 80%;
+    font-size: 22px;
+    border-radius: 6%;
+    border: 2px solid red;
+}
+button{
+    position:relative;
+    width: auto;
+    color:#ecf0f1;
+    text-decoration:none;
+    border-radius:5px;
+    border:solid 1px #000000;
+    background:#222fe6;
+    text-align:center;
+    padding:16px 18px 14px;  
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;  
+    -webkit-box-shadow: 0px 6px 0px #050d85;
+    box-shadow: 0px 6px 0px #050d85;
+    margin: 12px;
+    font-family: cursive;
+    cursor: pointer;
+}
+button:active{
+    -webkit-box-shadow: 0px 2px 0px #050d85;
+    box-shadow: 0px 2px 0px #050d85;
+    position:relative;
+    top:4px;
+}
+.img-container{
+    height: 200px;
+    width: 200px;
+}
+.one-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+p{
+    text-decoration: underline;
+    font-family: cursive;
+    color: #1b01ad;
+}
